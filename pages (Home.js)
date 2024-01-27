@@ -1,0 +1,17 @@
+import React from 'react'
+import {Link} from 'react-router-dom'
+import BinaImage from '../assests/bina.jpg';
+
+function Home() {
+  return (
+    <div className='home' style={{backgroundImages:`url(${BinaImage})`}}>
+        <div className='headerContainer'>
+            <h1>Meram Belediyesi</h1>
+            <p>Tevazu, Samimiyet ve Gayretle <br/> Bizim Meram için Çalışıyoruz</p>
+            <Link to="/menu"><button>Order Now</button></Link>
+        </div>
+    </div>
+  )
+}
+
+export default Home
