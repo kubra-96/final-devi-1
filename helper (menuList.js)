@@ -1,0 +1,33 @@
+import Türbe from "../assets/türbe.jpg"
+import Kar from "../assets/kar.jpeg"
+import Dere from "../assets/dere.jpg"
+import Akyokuş from "../assets/akyokuş.jpg"
+import seksenbin from "../assets/80bin.jpg"
+import seksen from "../assets/80.jpg"
+
+export const MenuList = [
+    {
+        name:"Tavusbaba Türbe",
+        image:Türbe,
+    },
+    {
+        name:"Meram'da Kar",
+        image:Kar,
+    },
+    {
+        name:"Meram Dere",
+        image:Dere,
+    },
+    {
+        name:"Akyokuş'da Gece",
+        image:Akyokuş,
+    },
+    {
+        name:"Kızlar Kayası",
+        image:Seksenbin,
+    },
+    {
+        name:"Seksen Binde Devri Alem",
+        image:Seksen,
+    },
+];
