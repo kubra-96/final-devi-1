@@ -1,0 +1,19 @@
+import React from 'react'
+import BannerImage from "../assets/meramlogo(1).jpg"
+
+
+function About() {
+  return (
+    <div className='about'>
+        <div className='aboutTop' style={{backgroundImage: `url(${BannerImage})`}}>
+      
+        </div>
+        <div className='aboutBottom'>
+            <h1>About Us</h1>
+            <p>Meram Municipality in Konya, Turkey, is dedicated to enhancing the living standards of its residents. Through infrastructure projects, environmental initiatives, and community events, the municipality fosters a sense of unity. It adopts a transparent and participatory governance style, actively involving citizens in decision-making. Focused on sustainable development, Meram Municipality balances modern living standards with the preservation of the district's rich history and culture. As a trusted institution, it plays a pivotal role in the social and economic development of the city.</p>
+        </div>
+    </div>
+  )
+}
+
+export default About
